@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.common_container {
+}
+
+.head_green_style {
+  color: #00588b;
+}
+
+.head_blue_style {
+  color: #389900;
+}
+
+.head_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.head_title_style {
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.head_tag {
+  font-size: 8px;
+  padding-right: 2px;
+}
+
+.toggler {
+  border-color: #389900;
+}
+
+.toggler_container {
+  border-width: 0px;
+  height: px;
+  background-color: #389900;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://static.wixstatic.com/media/2d34e5_f31b7f79c757410d8aab04ca606bcbe4~mv2.png/v1/fill/w_1897,h_850,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2d34e5_f31b7f79c757410d8aab04ca606bcbe4~mv2.png");
+  background-size: cover;
+  height: 25vh;
+  color: #ffffff;
+  font-family: "Roboto";
+  padding: 13px;
+}
+
+.quote {
+  font-size: 20px;
+  font-family: "Verdana";
+  font-weight: bold;
+}
+
+.author {
+  font-size: 13px;
+  font-family: "Georgia";
+}
+
+.carousal_st {
+  border-radius: 15px;
+}
+
+.carousal-img {
+  height: 300px;
+}
+
+.place-name {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 30px;
+  font-family: "Roboto";
+}
+
+.carousal-img-dubai {
+  background-image: url("https://static.wixstatic.com/media/2d34e5_686d7af6f8e442758b58cd82210f7f1c~mv2.jpg/v1/fill/w_572,h_414,al_c,lg_1,q_80,enc_auto/2d34e5_686d7af6f8e442758b58cd82210f7f1c~mv2.jpg");
+  background-size: cover;
+}
+
+.carousal-img-thailand {
+  background-size: cover;
+  background-image: url("https://static.wixstatic.com/media/2d34e5_a525e1b1e9404644811df93024c016d0~mv2.jpg/v1/fill/w_677,h_490,al_c,lg_1,q_80,enc_auto/2d34e5_a525e1b1e9404644811df93024c016d0~mv2.jpg");
+}
+
+.carousal-img-malaysia {
+  background-size: cover;
+  background-image: url("https://static.wixstatic.com/media/2d34e5_801ccda2ca014be0afe4a6c5aff19f5d.jpg/v1/fill/w_877,h_635,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2d34e5_801ccda2ca014be0afe4a6c5aff19f5d.jpg");
+}
+
+.place-description {
+  color: #ffffff;
+  font-family: "Roboto";
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.international-heading {
+  color: #00588b;
+}
+
+.international-description {
+  color: #389900;
+}
+
+.carousal-img-kerela {
+  background-image: url("https://static.wixstatic.com/media/2d34e5_cd66c3e13a694995af24df10270f4d32~mv2.jpg/v1/fill/w_877,h_635,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2d34e5_cd66c3e13a694995af24df10270f4d32~mv2.jpg");
+  background-size: cover;
+}
+
+.carousal-img-kashmir {
+  background-size: cover;
+  background-image: url("https://static.wixstatic.com/media/2d34e5_fe5383e362cb42c5a38a4cd1ae942285~mv2.jpg/v1/fill/w_576,h_417,al_c,lg_1,q_80,enc_auto/2d34e5_fe5383e362cb42c5a38a4cd1ae942285~mv2.jpg");
+}
+
+.carousal-img-taj {
+  background-size: cover;
+  background-image: url("https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg");
+}
+
+@media (min-width: 768px) {
+  .carousal_st {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #international {
+    display: none;
+  }
+
+  #indian {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #389900;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.medium_format {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.single {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
